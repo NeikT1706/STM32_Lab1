@@ -212,7 +212,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  display7SEG(light);
+	display7SEG(light);
 	switch(led_status) {
 	  	  case 0:
 	  		  HAL_GPIO_WritePin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1_Pin, RESET);
