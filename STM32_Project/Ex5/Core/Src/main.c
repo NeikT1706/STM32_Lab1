@@ -185,7 +185,6 @@ int main(void)
   int led_status = 0;
   int count = 3;
   int light = 5;
-  int light2 = 3;
   /* USER CODE BEGIN Init */
 
   /* USER CODE END Init */
@@ -227,7 +226,6 @@ int main(void)
 			  if(count <= 0) {
 				  led_status = 1;
 				  count = 2;
-				  light2 = 2;
 			  }
 			  break;
 	  	  case 1:
@@ -239,7 +237,6 @@ int main(void)
 				  led_status = 2;
 				  count = 3;
 				  light = 3;
-				  light2 = 5;
 			  }
 			  break;
 		  case 2:
@@ -264,7 +261,6 @@ int main(void)
 				  led_status = 0;
 				  count = 3;
 				  light = 5;
-				  light2 = 3;
 			  }
 			  break;
 		  default:
