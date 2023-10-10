@@ -221,7 +221,6 @@ int main(void)
 			  HAL_GPIO_WritePin(LED_GREEN_2_GPIO_Port, LED_GREEN_2_Pin, SET);
 			  count = count - 1;
 			  light--;
-			  light2--;
 			  if(count <= 0) {
 				  led_status = 1;
 				  count = 2;
